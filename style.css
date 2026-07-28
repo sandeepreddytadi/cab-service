@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   SwiftCab – Cab Service Website Stylesheet
+   Sai Travels – Cab Service Website Stylesheet
    ═══════════════════════════════════════════════════════════ */
 
 /* ── Reset & Base ── */
@@ -154,10 +154,20 @@ p  { color: var(--muted); }
   font-weight: 500;
   padding: .45rem .8rem;
   border-radius: 6px;
-  transition: var(--trans);
+  transition: background .3s, opacity .3s;  /* no color transition = composited */
+  position: relative;
 }
 .nav-links a:hover,
 .nav-links a.active { color: var(--yellow); background: rgba(245,197,24,.08); }
+/* active underline via composited pseudo-element */
+.nav-links a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 2px; left: 50%; transform: translateX(-50%);
+  width: 16px; height: 2px;
+  background: var(--yellow);
+  border-radius: 2px;
+}
 
 .hamburger {
   display: none;
@@ -242,6 +252,7 @@ p  { color: var(--muted); }
   text-align: center;
   box-shadow: var(--shadow);
   animation: floatCard 4s ease-in-out infinite;
+  will-change: transform;   /* promotes to own compositing layer */
 }
 @keyframes floatCard {
   0%,100% { transform: translateY(0); }
@@ -589,7 +600,8 @@ p  { color: var(--muted); }
 }
 .footer-brand .logo { font-size: 1.2rem; margin-bottom: .75rem; display: inline-flex; }
 .footer-brand p { font-size: .88rem; max-width: 260px; }
-.footer-links h4 {
+.footer-links h4,
+.footer-links .footer-heading {
   color: var(--white);
   font-size: .88rem;
   font-weight: 700;
