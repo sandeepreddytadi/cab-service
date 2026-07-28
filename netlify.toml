@@ -1,8 +1,10 @@
+# Netlify build config — static site, no build step needed
 [build]
-publish="."
-command=""
+  publish = "."        # serve files from the root of this folder
+  command = ""         # no build command (plain HTML/CSS/JS)
 
+# Clean URLs
 [[redirects]]
-from="/*"
-to="/index.html"
-status=200
+  from = "/*"
+  to   = "/index.html"
+  status = 200
