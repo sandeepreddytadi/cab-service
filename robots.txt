@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cab-servixe.netlify.app/sitemap.xml
