@@ -1,0 +1,30 @@
+# Sai Travels – Reliable Cab & Travel Service
+
+> Sai Travels provides premium cab services 24/7 including airport transfers, city rides, outstation trips, and corporate travel across Andhra Pradesh.
+
+## Services
+
+- [Airport Transfer](#services) – On-time pickups and drops to all major airports
+- [City Rides](#services) – Fixed-fare point-to-point rides within the city
+- [Outstation Trips](#services) – One-way and round-trip intercity journeys
+- [Corporate Travel](#services) – Managed accounts and monthly billing for businesses
+- [Events & Weddings](#services) – Decorated luxury vehicles for special occasions
+- [Night Rides](#services) – Safe GPS-monitored night rides
+
+## Fleet
+
+- Economy Sedan (Swift Dzire / Etios) – from ₹10/km
+- Premium Sedan (Honda City / Ciaz) – from ₹14/km
+- SUV / Innova (Innova Crysta / Ertiga) – from ₹18/km
+- Tempo Traveller (12–17 seater) – from ₹22/km
+
+## Contact
+
+- Phone / WhatsApp: +91 99515 38080
+- Email: info@saitravels.in
+- Address: Sri Shiridi Sai Traders, Narasapurapupeta, Ramachandrapuram
+- Available: 24 / 7
+
+## Book a Ride
+
+Use the booking form at [https://cab-servixe.netlify.app/#contact](https://cab-servixe.netlify.app/#contact) to submit a ride request.
